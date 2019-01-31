@@ -10,7 +10,7 @@
 ; > Also, in real computers, arithmetic operations are almost always performed with limited precision.
 ; > This makes our test inadequate for very large numbers.
 ;
-; Floating point precision is about 6-8 digits depenging on stuff. (https://www.exploringbinary.com/decimal-precision-of-binary-floating-point-numbers/)
+; Floating point precision is about 6-8 digits depenging on "stuff". (https://www.exploringbinary.com/decimal-precision-of-binary-floating-point-numbers/)
 ; So what happens if the square of x is over that? It gets inprecise.
 
 
