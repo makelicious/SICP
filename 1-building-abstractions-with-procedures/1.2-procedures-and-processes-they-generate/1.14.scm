@@ -7,8 +7,9 @@
 ; used by this process as the amount to be changed increases?
 ;
 ; Order of growth in steps:
-; n^2 (leaves per tree) + n (depth of the tree) + 1 (first call) => O(n^2)
-;
+; n^5
+
+
 ; Order of growth in space:
 ; O (n) space correlates with the depth of the tree.
 

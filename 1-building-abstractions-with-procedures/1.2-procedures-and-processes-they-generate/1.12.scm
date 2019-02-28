@@ -21,4 +21,4 @@
      ((= column 0) 1)
      ((= column row) 1)
      ((< (- row column) 0) 0)
-     ((+ (pascal (- row 1) (- column 1)) (pascal (- row 1) column)))))
+     ((+ (pascal-triangle (- row 1) (- column 1)) (pascal-triangle (- row 1) column)))))
