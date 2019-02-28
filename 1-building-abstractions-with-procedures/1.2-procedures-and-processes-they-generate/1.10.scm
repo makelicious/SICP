@@ -69,11 +69,10 @@
 ; (h 4)
 ; 65536
 
-
 ; Here we can see that using function h values grow exponentially.
 ; (h 4) ->  65536 -> 2^16 -> 2^2^2^2^2 (length 5)
 ; (h 3) -> 16 -> 2^4 -> 2^2^2 (length 3)
-; (h 2) -> 4 -> 2^1 -> 2^2 (length 2)
+; (h 2) -> 4 -> 2^2 -> 2^2 (length 2)
 ; If we take 2^2 as the base case we can see; 2^2^...(n -1)
 (define (k n) (* 5 n n))
 ; 5n2
